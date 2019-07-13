@@ -1,0 +1,107 @@
+/* Write some CSS below */
+body {
+	font-family: Raleway;
+}
+
+h1 {
+	font-family: Raleway;
+	color: #DED8CC
+}
+
+h1 {
+	font-weight: bold
+}
+
+h2 {
+	font-family: Oswald;
+	color: #6BA3A1
+}
+
+h4 {
+	font-family: Roboto; 
+	color: #6BA3A1
+}
+
+a {
+	text-decoration: none;
+	color: #DED8CC;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #A8AFA2;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover; 
+}
+
+p {
+	font-family: Raleway; 
+	color: #2F4858
+}
+
+#banner {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/HH-Alster.jpeg');
+	background-size: cover; 
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.btn-blue {
+	padding: 15px 20px;
+	margin: 30px;
+	border-radius: 20px;
+	background-color: #2F4858;
+	transition: 3s; 
+}
+
+.btn-blue:hover {
+	background-color: grey;
+}
+
+.card {
+	background-color: #DED8CC; 
+	box-shadow: 0 0 16px rgba(0,0,0,0.5)
+	border-radius: 2px;
+	width: 210px;
+	text-align: center;
+	padding: 10px; 
+	margin: 10px;
+	flex-grow:;
+}
+
+.card img{
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 3px;
+}
+
+#footer {
+	font-size: 40px;
+	font-family: "Raleway", cursive;
+	background-color: #7A7C8B;
+	text-align: center;
+	background-size: cover;
+	padding: 50px 0;
+}
+
+#container {
+	margin: auto;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 2px;
+	background-color: #A8AFA2;
+}
+
+#muse h4 {
+	text-align: center;
+}
